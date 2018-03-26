@@ -37,8 +37,9 @@ unless they are marked as optional.
 
 1.  Data fetching from the api.
 2.  Form steps logic.
-3.  (optional) Saving the data.
-4.  (optional) Styling (minor for a 2-3 h challenge, more if there's more time).
+3.  Unit tests
+4.  (optional) Saving the data.
+5.  (optional) Styling (minor for a 2-3 h challenge, more if there's more time).
 
 ## API Usage
 
