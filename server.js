@@ -11,19 +11,19 @@
  */
 
 const addresses = require('./controllers/addressesController');
+const config = require('./config');
 const express = require('express');
-const { parse } = require('url');
 const next = require('next');
 const fileUpload = require('express-fileupload');
-const fs = require('fs');
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
-const csvtojson = require('csvtojson');
+const mongoose = require('mongoose');
 
 
 
 app.prepare().then(() => {
+  mongoose.connect(config.dbConnect);
   const server = express();
   server.use(fileUpload());
   server.use('/addresses/', addresses);

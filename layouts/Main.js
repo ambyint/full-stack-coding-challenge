@@ -1,6 +1,9 @@
 import React from 'react';
 import Head from 'next/head'
 
+/**
+ * Main page layout template
+ */
 class Page extends React.Component {
   constructor(props) {
     super(props);
