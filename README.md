@@ -14,10 +14,10 @@
         - `123 Rick Street` should return when searching for `Rick`
 
 #### Submission Instructions
-- Fork this repository to your GitHub account and push your changes accordingly, we'll view your submission there
+- Clone this repository and commit your changes locally (or to a separate remote repository)
 - You're free to use any packages or libraries which help you to complete these tasks
 - We should be able to start the application by doing a `npm install` and `npm start` on both the client and server (we will be running the code and QA will also be looking at the final product)
-- When you are finished, please contact us with a link to your forked repo, preferably on GitHub
+- When you are finished, please contact us with a link to your repository or send us a zip containing the contents
 
 #### Criteria
 - Must fulfill all requirements completely
