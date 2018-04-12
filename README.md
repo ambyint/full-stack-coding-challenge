@@ -1,7 +1,7 @@
 ## Full Stack Coding Challenge
 
 #### Description
-- Build a simple UI which will display a number of addresses retrieved from an api endpoint
+- Build a UI which will display a number of addresses retrieved from an api endpoint
 
 #### Requirements
 - Server
