@@ -1,4 +1,3 @@
 /.idea
 /.next
-config.js
-
+node_modules
