@@ -8,7 +8,7 @@ Keep in mind best practices, readability, testing and extensibility
 #### Requirements
 
 - Geocode the items in the provided `addresses.csv` file by using the [Google Geocode API](https://developers.google.com/maps/documentation/javascript/geocoding)
-- Only display addresses that have a single non-partial results and have a geocode of `ROOFTOP` quality
+- Only output addresses that have a single non-partial results and have a geocode of `ROOFTOP` quality
 - Do not purchase a Google API Key
 
 #### Submission Instructions
