@@ -7,6 +7,7 @@ Keep in mind best practices, readability, testing and extensibility
 
 #### Requirements
 
+- Load and parse the `addresses.tar.gz` based on the positional key below.
 - Geocode the addresses in the provided `addresses.tar.gz` file by using the [Google Geocode API](https://developers.google.com/maps/documentation/javascript/geocoding)
 - Only output addresses that have a single non-partial results and have a geocode of `ROOFTOP` quality
 - Do not purchase a Google API Key
