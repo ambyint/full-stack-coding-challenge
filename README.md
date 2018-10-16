@@ -25,7 +25,7 @@ CITY: 30
 STATE: 2
 ZIP: 12
 ```
-**NOTE** A full address is formed in the same order of the parts listed above.
+**NOTE** - A full address is formed in the same order of the parts listed above.
 
 #### Submission Instructions
 - Clone this repository and commit your changes locally (or to a separate remote repository)
