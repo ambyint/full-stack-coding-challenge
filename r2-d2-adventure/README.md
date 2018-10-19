@@ -20,7 +20,7 @@ The year is 1977, Star Wars: A New Hope has just been released.  The true hero o
 	- The origin (0,0) can be considered to be the SOUTH WEST most corner. 	- If R2-D2 has already landed ignore this command
 
 - **MOVE (x)** will move R2-D2 (x) units forward in the direction it is currently facing
-- **LEFT and RIGHT** will R2-D2 90 degrees in the specified direction without changing the position of the robot
+- **LEFT and RIGHT** will rotate R2-D2 90 degrees in the specified direction without changing the position of the robot
 - **REPORT** report the location of both R2-D2 and Obi Wan as a grid coordinate and facing direction
 
 #### Constraints
