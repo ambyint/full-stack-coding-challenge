@@ -1,24 +1,26 @@
 ## Palpatine Exercise
 
-Following Supreme Chancellor Palpatine's reorganization of the Galactic Republic, he has devised a new initiative to collect the 
-personal information of citizens of the galaxy. It goes without saying that this is to be used solely for the good of the galaxy.
+Following Supreme Chancellor Palpatine’s reorganization of the Galactic Republic, he has devised an initiative to 
+collect personal data on all citizens of the Galaxy. It goes without saying that this is to be used solely for the 
+good of the people.
 
-The information has already been intercepted but unfortunately it's all encrypted. Palpatine has asked for you personally to extract
- key pieces of information from it. His first order of business is to group individuals by homeworld (Such as Coruscant, the
- location of the Jedi Temple) 
+The encrypted data has been intercepted from the rebels and needs to be cracked. The Chancellor has personally asked 
+for you to undertake this most important duty. His first order of business is to group citizens by their homeworld, 
+because, reasons.
 
-The Chancellor has generously offered you the use of his super advanced computer that has the ability to break the encryption. 
-Better yet, the decryption algorithm can be accessed with a convenient API.
+The Chancellor has generously offered you the use of his super advanced computer that has the ability to break the 
+encryption. Better yet, the decryption algorithm can be accessed with a convenient API.
 
 #### Requirements
 
-* Load and parse super-secret-data.txt
-* Decrypt the information
+* Load the super-secret-data.txt file provided. Each line is a collection of citizen information to be decrypted
+* Decrypt each line using Palpatine’s Convenient Decryption API
 * Clean the data
-    * Remove any duplicates (no one in the star wars universe shares the same name)
-    * You may assume a maximum of 200 unique characters
-* Output character names grouped by their homeworlds (you may use the swapi linked below)
-    * If the swapi is unavailable for any reason then grouping by homeworld url is fine
+    * Remove any duplicates, determined by the name field
+    * You may assume there are a maximum of 200 unique citizens exist in the Galaxy. It’s a small Galaxy.
+* Fetch actual homeworld names from the Star Wars API (swapi) described below using the homeworld url’s on the citizen data. If the swapi is not available for some reason, then grouping by the homeworld url is fine. Your program should handle this case
+    * You may assume that there are a maximum of 200 homeworlds
+* Write the citizen names, grouped by their home worlds, to a file called citizens-super-secret-info.txt
     
 Example Output:
 
@@ -36,7 +38,7 @@ Unknown
 - Jaira Alateen
 ```
     
-#### Endpoint Documentation
+#### Palpatine’s Convenient Decryption API
 
 
 ```
@@ -111,17 +113,20 @@ Response:
 
 You are limited to 50,000 requests per month and 25 requests per second. 
 
-#### Also See
+#### SWAPI (Star Wars API)
 
 https://swapi.co/documentation 
 
 
 #### Submission Instructions
 
-* Clone this repository and commit your changes locally (or to a separate remote repository)
 * Use any packages or libraries which help you to complete these tasks
-* When you are finished, please send us a link to the completed repository or a zip of the contents if you prefer
+* When you are finished, please provide us with a link to the completed repository (we use GithHub, but other services 
+are completely fine)
+* Please be sure to mention what version of Node you used
 * Describe any challenges that made the task more difficult
+Be prepared to discuss how you might improve your program to handle  a galaxy with millions or even billions of unique 
+citizens and homeworlds
 
 
 
