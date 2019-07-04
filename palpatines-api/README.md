@@ -13,7 +13,7 @@ encryption. Better yet, the decryption algorithm can be accessed with a convenie
 
 #### Requirements
 
-* Load the super-secret-data.txt file provided. Each line is a collection of citizen information to be decrypted
+* Load the super-secret-data.txt file provided. Each line is encrypted information on a single citizen
 * Decrypt each line using Palpatine’s Convenient Decryption API
 * Clean the data
     * Remove any duplicates, determined by the name field
@@ -124,9 +124,7 @@ https://swapi.co/documentation
 * When you are finished, please provide us with a link to the completed repository (we use GithHub, but other services 
 are completely fine)
 * Please be sure to mention what version of Node you used
-* Describe any challenges that made the task more difficult
-Be prepared to discuss how you might improve your program to handle  a galaxy with millions or even billions of unique 
-citizens and homeworlds
+* Describe any challenges that made the task more difficult and how you might improve your program to handle a galaxy with millions of unique citizens and homeworlds. Be prepared to discuss this in the technical interview
 
 
 
