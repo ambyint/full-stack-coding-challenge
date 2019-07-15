@@ -42,7 +42,7 @@ Unknown
 
 
 ```
-https://ylj3ustbsk.execute-api.us-east-1.amazonaws.com/qa/decrypt
+https://txje3ik1cb.execute-api.us-east-1.amazonaws.com/prod/decrypt
 Type: POST
 Parameters: None
 Headers:
